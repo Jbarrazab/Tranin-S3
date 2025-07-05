@@ -1,11 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sistema de Gestion de Inventario</title>
+  <link rel="stylesheet" href="./src/css/style.css" />
 </head>
 <body>
-  
+
+  <header>
+    <h1>Sistema de Gestion de Inventario Riwi Barranquilla </h1>
+  </header>
+
+  <main class="container">
+
+    <!-- formulario de productos -->
+    <section aria-label="Formulario de producto">
+      <h3>Crea y guarda los productos usando los siguientes campos</h3>
+      <form id="form">
+        <input id="product_name" type="text" placeholder="Nombre del producto" required />
+        <input id="product_price" type="number" placeholder="Precio unitario" required />
+        <input id="product_description" type="text" placeholder="Descripcion del producto" required />
+        <button type="submit" class="btn btn-success">Crear producto</button>
+      </form>
+    </section>
+
+    <!-- enlistado de productos -->
+
+    <section aria-label="Inventario actual">
+      <h2>Listado de productos actual</h2>
+      <div id="product-list" class="product-list">
+        <!-- lso productos aqui -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Sistema de Inventario.</p>
+  </footer>
+
+  <script src="./src/js/main.js"></script>
 </body>
 </html>

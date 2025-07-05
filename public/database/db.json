@@ -1,1 +1,28 @@
-{}
+{
+  "products": [
+    {
+      "name": "Agua",
+      "price": 5050,
+      "description": "wkhfeb",
+      "id": "d9f9"
+    },
+    {
+      "id": "2d76",
+      "name": "Pantalla",
+      "price": 800000,
+      "description": "Pantalla LCD uso coder"
+    },
+    {
+      "id": "6435",
+      "name": "Torre coder",
+      "price": 100000,
+      "description": "Torre coder para entrenamiento"
+    },
+    {
+      "name": "Torre Tl y adm",
+      "price": 900000,
+      "description": "Torre de uso TL y adm",
+      "id": "63cf"
+    }
+  ]
+}
