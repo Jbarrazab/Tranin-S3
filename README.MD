@@ -19,3 +19,7 @@ Este es un proyecto educativo que implementa un sistema básico de inventario co
 - HTML5 + Semántica estructurada
 - CSS3 con `rem`, media queries y Grid/Flexbox
 - JavaScript moderno (ES6) con `
+- node.js v20.3
+- Bostrap
+
+## Arquitectura 
